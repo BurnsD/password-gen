@@ -9,7 +9,7 @@ const form = document.getElementById('passwordForm')
 const LOWERCASE_CHAR_CODES = arrayFromLowToHigh(97, 122)
 const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(65, 90)
 const NUNBER_CHAR_CODES = arrayFromLowToHigh(48, 57)
-const UPPERCASE_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
+const SYMBOLS_CHAR_CODES = arrayFromLowToHigh(33, 47).concat(
   arrayFromLowToHigh(58, 64)
 ).concat(
   arrayFromLowToHigh(91, 96)
@@ -30,7 +30,7 @@ form.addEventListener('submit', e => {
 })
 
 function generatePassword(charAmount, includeUppercase, includeNumbers, includeSymbols) {
-  String.fromCharCode(65)
+  console.log(LOWERCASE_CHAR_CODES)
 }
 
 function arrayFromLowToHigh(low, high){
