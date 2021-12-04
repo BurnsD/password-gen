@@ -64,6 +64,7 @@ header {
   width: 100%;
   background: #e7e9eb;
   height: 2px;
+  align-items: center;
 }
 
 .card-footer::after {
@@ -72,10 +73,13 @@ header {
   clear: both;
 }
 
-.inputs {
+.form {
   display: grid;
   grid-template-columns: auto auto;
   row-gap: 15px;
+  column-gap: 3rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .btn {
@@ -92,6 +96,7 @@ header {
   padding: 14px 34px;
   text-align: center;
   cursor: pointer;
+  align-items: center;
 }
 
 button[disabled] {
