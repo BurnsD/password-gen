@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div id="passwordForm" class="wrapper">
+    <div id="passwordGeneratorForm" class="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
@@ -16,37 +16,19 @@
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
-        <div id="passwordDisplay" class="card-body">
+        <div class="card-body">
           <textarea
             readonly
-            id="password"
+            id="passwordDisplay"
             placeholder="Your Secure Password"
             aria-label="Generated Password"
           ></textarea>
         </div>
         <div>
-          <!-- Inputs for password selections -->
-          <form class="inputs">
-            <!-- Input for Number of Characters -->
-            <label for="">Number of Characters</label>
-            <!--  -->
-            <div>
-            <input type="range" min="8" max="128" value="12" id="charAmountRange">
-            <input type="number" min="8" max="128" value="12" id="charAmountNumber">
-            </div>
-            <!-- Input for including uppercase -->
-            <label for="includeUppercase">Include Uppercase</label>
-            <input type="checkbox" id="includeUppercase">
-            <!-- Input for including numbers -->
-            <label for="includeNumbers">Include Numbers</label>
-            <input type="checkbox" id="includeNumbers">
-            <!-- Input for including symbols -->
-            <label for="includeSymbols">Include Symbols</label>
-            <input type="checkbox" id="includeSymbols">
-          </form>
+          
         </div>
         <div class="card-footer">
-          <button id="generate" class="btn">Generate Password</button>
+          <button type="submit" class="btn">Generate Password</button>
         </div>
       </div>
     </div>
