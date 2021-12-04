@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <div class="wrapper">
+    <div id="passwordForm" class="wrapper">
       <header>
         <h1>Password Generator</h1>
       </header>
@@ -31,18 +31,18 @@
             <label for="">Number of Characters</label>
             <!--  -->
             <div>
-            <input type="range" min="8" max="128" value="12" id="charAmount-Range">
-            <input type="number" min="8" max="128" value="12" id="charAmount-Number">
+            <input type="range" min="8" max="128" value="12" id="charAmountRange">
+            <input type="number" min="8" max="128" value="12" id="charAmountNumber">
             </div>
             <!-- Input for including uppercase -->
-            <label for="include-uppercase">Include Uppercase</label>
-            <input type="checkbox" id="include-uppercase">
+            <label for="includeUppercase">Include Uppercase</label>
+            <input type="checkbox" id="includeUppercase">
             <!-- Input for including numbers -->
-            <label for="include-numbers">Include Numbers</label>
-            <input type="checkbox" id="include-numbers">
+            <label for="includeNumbers">Include Numbers</label>
+            <input type="checkbox" id="includeNumbers">
             <!-- Input for including symbols -->
-            <label for="include-symbols">Include Symbols</label>
-            <input type="checkbox" id="include-symbols">
+            <label for="includeSymbols">Include Symbols</label>
+            <input type="checkbox" id="includeSymbols">
           </form>
         </div>
         <div class="card-footer">
