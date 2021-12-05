@@ -5,3 +5,4 @@ Making a password generator out of Javascript that allows 8-128 characters, numb
 
 ### Screen shot of application
 
+![Screenshot](./assets/images/Screenshot-pswrdgen.png)
